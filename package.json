@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "1.0.0",
   "description": "This is my portfolio",
-  "main": "home.html",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
