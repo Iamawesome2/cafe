@@ -11,7 +11,7 @@
     "imagemin": "imagemin img/* -o dist/img",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
-    "usemin": "usemin contactme.html -d dist --htmlmin -o dist/contactme.html && usemin about.html -d dist --htmlmin -o/about.html && usemin home.html -d dist --htmlmin -o dist/home.html"
+    "usemin": "usemin contactme.html -d dist --htmlmin -o dist/contactme.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "author": "David Gadeken",
   "license": "ISC",
